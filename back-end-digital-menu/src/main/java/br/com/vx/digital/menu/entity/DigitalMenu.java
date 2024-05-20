@@ -1,13 +1,13 @@
 package br.com.vx.digital.menu.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
 @AllArgsConstructor
+@NoArgsConstructor
+@EqualsAndHashCode
 @Table(name = "tb_menu")
 @Entity(name = "tb_menu")
 public class DigitalMenu {
