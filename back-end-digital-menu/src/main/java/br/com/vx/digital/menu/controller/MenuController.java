@@ -19,6 +19,7 @@ public class MenuController {
 
     // MÉTODO PARA PUBLICAR UMA NOVA COMIDA NO CARDAPIO
     // nesse caso aqui FAREMOS  O INVERSO -> TRANSFORMAR O DTO NA ENTIDADE
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @PostMapping
     public void saveFood(@RequestBody DigitalMenuRequestDTO data) {
         DigitalMenu menuData = new DigitalMenu(data);
@@ -29,7 +30,7 @@ public class MenuController {
     /* primeiro endpoint que será criado será o de get que irá retornar todos alimentos
     * que tem no banco de dados */
 
-
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @GetMapping
     public List<DigitalMenuResponseDTO> getAll(){
 

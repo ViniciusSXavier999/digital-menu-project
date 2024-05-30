@@ -1,6 +1,7 @@
 package br.com.vx.digital.menu.entity;
 
 import br.com.vx.digital.menu.dto.DigitalMenuRequestDTO;
+import br.com.vx.digital.menu.dto.DigitalMenuResponseDTO;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -25,7 +26,7 @@ public class DigitalMenu {
 
 
 
-    
+
     // fazendo a conversão para entidade.
     public DigitalMenu(DigitalMenuRequestDTO data){
         this.image = data.image();
