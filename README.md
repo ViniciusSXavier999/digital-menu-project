@@ -121,3 +121,10 @@ A API tem os seguintes End Points:
 	}
 ]
 ```
+
+
+## AUTORES 
+
+| [<img src="https://github.com/ViniciusSXavier999/Assets/blob/main/EuVini/euocto.png" width=115><br><sub>Vinicius Xavier</sub>](https://github.com/ViniciusSXavier999)
+| :---: |
+
